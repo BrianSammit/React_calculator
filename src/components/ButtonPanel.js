@@ -13,33 +13,33 @@ const ButtonPanel = ({ clickHandler }) => {
   return (
     <>
       <div>
-        <Buttom name="AC" />
-        <Buttom name="+/-" />
-        <Buttom name="%" />
-        <Buttom name="÷" />
+        <Buttom handleClick={clickHandler} name="AC" />
+        <Buttom handleClick={clickHandler} name="+/-" />
+        <Buttom handleClick={clickHandler} name="%" />
+        <Buttom handleClick={clickHandler} name="÷" />
       </div>
       <div>
-        <Buttom name="7" />
-        <Buttom name="8" />
-        <Buttom name="9" />
-        <Buttom name="X" />
+        <Buttom handleClick={clickHandler} name="7" />
+        <Buttom handleClick={clickHandler} name="8" />
+        <Buttom handleClick={clickHandler} name="9" />
+        <Buttom handleClick={clickHandler} name="X" />
       </div>
       <div>
-        <Buttom name="4" />
-        <Buttom name="5" />
-        <Buttom name="6" />
-        <Buttom name="-" />
+        <Buttom handleClick={clickHandler} name="4" />
+        <Buttom handleClick={clickHandler} name="5" />
+        <Buttom handleClick={clickHandler} name="6" />
+        <Buttom handleClick={clickHandler} name="-" />
       </div>
       <div>
-        <Buttom name="3" />
-        <Buttom name="2" />
-        <Buttom name="1" />
-        <Buttom name="+" />
+        <Buttom handleClick={clickHandler} name="3" />
+        <Buttom handleClick={clickHandler} name="2" />
+        <Buttom handleClick={clickHandler} name="1" />
+        <Buttom handleClick={clickHandler} name="+" />
       </div>
       <div>
-        <Buttom name="0" />
-        <Buttom name="." />
-        <Buttom name="=" />
+        <Buttom handleClick={clickHandler} name="0" />
+        <Buttom handleClick={clickHandler} name="." />
+        <Buttom handleClick={clickHandler} name="=" />
       </div>
     </>
   );
