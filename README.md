@@ -2,7 +2,7 @@
 
 This is a Calculator web app for Math Magicians online learning. Built using React.
 
-![Page](./capture.jpg)
+![Page](Capture.jpg)
 
 ## Getting Started
 
