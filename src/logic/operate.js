@@ -1,8 +1,8 @@
 import Big from 'big.js';
 
 const operate = (numberOne, numberTwo, operation) => {
-  const numOne = Big(numberOne);
-  const numTwo = Big(numberTwo);
+  const numOne = Big(numberOne || '0');
+  const numTwo = Big(numberTwo || '0');
   const minusOne = Big(-1);
 
   switch (operation) {
@@ -13,6 +13,9 @@ const operate = (numberOne, numberTwo, operation) => {
     case 'X':
       return numOne.times(numTwo).toNumber();
     case '÷':
+      if (numberTwo === '0') {
+        return 'Cannot divide by 0';
+      }
       return numOne.div(numTwo).toNumber();
     case '%':
       return numOne.times(Big(0.01)).toNumber();
