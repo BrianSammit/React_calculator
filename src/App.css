@@ -1,3 +1,17 @@
 body {
   margin: auto;
 }
+
+.app {
+  display: flex;
+  flex-direction: column;
+}
+
+.display {
+  display: flex;
+  background-color: grey;
+}
+
+.button_panel {
+  display: flex;
+}
