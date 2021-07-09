@@ -1,5 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
+import '../App.css';
 
 const Button = (props) => {
   const handleClick = (buttonName) => {
@@ -9,6 +10,7 @@ const Button = (props) => {
   const { name } = props;
   return (
     <button
+      className={name === '0' ? 'button_0' : 'button'}
       onClick={() => {
         handleClick(name);
       }}

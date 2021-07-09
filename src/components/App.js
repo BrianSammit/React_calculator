@@ -9,7 +9,7 @@ class App extends React.Component {
     super(props);
 
     this.state = {
-      total: '',
+      total: '0',
       next: '',
       operation: '',
     };

@@ -5,13 +5,40 @@ body {
 .app {
   display: flex;
   flex-direction: column;
+  width: 700px;
 }
 
 .display {
   display: flex;
   background-color: grey;
+  height: 100px;
+  color: white;
+  font-weight: bolder;
+  padding: 0 20px;
+  justify-content: flex-end;
+  align-items: center;
+  margin: 0;
 }
 
 .button_panel {
   display: flex;
+  flex-direction: column;
+}
+
+.button_panel div {
+  height: 100px;
+}
+
+.button {
+  width: 25%;
+  height: 100%;
+  color: black;
+  text-align: center;
+  border: solid rgb(197, 192, 192) 1px;
+}
+
+.button_0 {
+  width: 50%;
+  height: 100%;
+  border: solid rgb(197, 192, 192) 1px;
 }
