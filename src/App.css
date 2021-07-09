@@ -29,16 +29,9 @@ body {
   height: 100px;
 }
 
-.button {
-  width: 25%;
+button {
+  border: solid rgb(197, 192, 192) 1px;
+  font-weight: bolder;
   height: 100%;
   color: black;
-  text-align: center;
-  border: solid rgb(197, 192, 192) 1px;
-}
-
-.button_0 {
-  width: 50%;
-  height: 100%;
-  border: solid rgb(197, 192, 192) 1px;
 }
