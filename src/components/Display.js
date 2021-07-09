@@ -22,9 +22,9 @@ Display.propTypes = {
 };
 
 Display.defaultProps = {
-  total: '0',
-  operation: '0',
-  next: '0',
+  total: '',
+  operation: '',
+  next: '',
 };
 
 export default Display;

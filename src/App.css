@@ -2,7 +2,7 @@ body {
   margin: auto;
 }
 
-.app {
+.calculator {
   display: flex;
   flex-direction: column;
   width: 700px;

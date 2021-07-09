@@ -12,7 +12,13 @@ const Button = (props) => {
 
   const ButtonText = styled.button`
     width: ${(props) => (props.name === '0' ? '50%' : '25%')};
-    background-color: ${(props) => (props.name === '-' || props.name === 'X' || props.name === '+' || props.name === '=' || props.name === '÷' ? 'orangered' : 'lightgray')};
+    background-color: ${(props) => (props.name === '-'
+      || props.name === 'X'
+      || props.name === '+'
+      || props.name === '='
+      || props.name === '÷'
+    ? 'orangered'
+    : 'lightgray')};
   `;
 
   return (
