@@ -1,6 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import Buttom from './Button';
+import '../App.css';
 
 const ButtonPanel = ({ clickHandler }) => {
   ButtonPanel.propTypes = {
@@ -11,7 +12,7 @@ const ButtonPanel = ({ clickHandler }) => {
   };
 
   return (
-    <>
+    <div className="button_panel">
       <div>
         <Buttom handleClick={clickHandler} name="AC" />
         <Buttom handleClick={clickHandler} name="+/-" />
@@ -41,7 +42,7 @@ const ButtonPanel = ({ clickHandler }) => {
         <Buttom handleClick={clickHandler} name="." />
         <Buttom handleClick={clickHandler} name="=" />
       </div>
-    </>
+    </div>
   );
 };
 
