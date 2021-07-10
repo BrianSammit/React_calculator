@@ -35,3 +35,31 @@ button {
   height: 100%;
   color: black;
 }
+
+.navbar {
+  display: flex;
+  padding: 0 20px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.links {
+  display: flex;
+}
+
+.home {
+  padding: 30px;
+}
+
+.quote {
+  display: flex;
+  text-align: center;
+  align-items: center;
+  height: 500px;
+}
+
+.calc {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 30px;
+}
