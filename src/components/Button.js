@@ -3,23 +3,17 @@ import PropTypes from 'prop-types';
 import '../App.css';
 import styled from 'styled-components';
 
+const ButtonText = styled.button`
+  width: ${(props) => (props.name === '0' ? '50%' : '25%')};
+  background-color: ${(props) => (props.name === '-' || props.name === 'X' || props.name === '+' || props.name === '=' || props.name === '÷' ? 'orangered' : 'lightgray')};
+`;
+
 const Button = (props) => {
   const handleClick = (buttonName) => {
     props.handleClick(buttonName);
   };
 
   const { name } = props;
-
-  const ButtonText = styled.button`
-    width: ${(props) => (props.name === '0' ? '50%' : '25%')};
-    background-color: ${(props) => (props.name === '-'
-      || props.name === 'X'
-      || props.name === '+'
-      || props.name === '='
-      || props.name === '÷'
-    ? 'orangered'
-    : 'lightgray')};
-  `;
 
   return (
     <ButtonText
