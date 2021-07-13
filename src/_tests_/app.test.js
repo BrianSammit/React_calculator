@@ -1,6 +1,6 @@
 import React from 'react';
 import { BrowserRouter as Router } from 'react-router-dom';
-import '@testing-library/jest-dom';
+import '@testing-library/react';
 import renderer from 'react-test-renderer';
 import App from '../components/App';
 
